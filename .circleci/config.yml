@@ -12,7 +12,8 @@ jobs:
       CODENAME: 'kenzo'
       BUILD_LUNCH: 'omni_kenzo-eng'
       PB_OFFICIAL: 'false'
-      CHANGELOG: " - test build\n
+      TEST_BUILD: "true"
+      CHANGELOG: " - test build\n "
     working_directory: /home/builder/pitchblack
     steps: 
       - checkout
