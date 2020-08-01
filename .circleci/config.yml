@@ -6,12 +6,12 @@ jobs:
       - image: fr3akyphantom/droid-builder:latest
     environment:
       MANIFEST_BRANCH: 'android-9.0'
-      VERSION: '2.9.1'
-      MAINTAINER: '@rezaadi0105'
+      VERSION: '3.0.0'
+      MAINTAINER: '@shovon668'
       VENDOR: 'xiaomi'
       CODENAME: 'kenzo'
       BUILD_LUNCH: 'omni_kenzo-eng'
-      PB_OFFICIAL: 'false'
+      # PB_OFFICIAL: 'false'
       TEST_BUILD: "true"
       CHANGELOG: " - test build\n "
     working_directory: /home/builder/pitchblack
